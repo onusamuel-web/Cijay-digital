@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Start a Project | Cijay Digital</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- ========================================
+         PROJECT PAGE NAVBAR
+    ======================================== -->
+
+    <nav class="project-nav">
+
+        <a href="index.html" class="project-logo">
+           <span class="project-logo-mark">
+    <img src="assets/logo.png" alt="Cijay Digital logo">
+</span>
+            CIJAY DIGITAL
+        </a>
+
+        <a href="index.html" class="back-home">
+            ← Back to site
+        </a>
+
+    </nav>
+
+
+    <!-- ========================================
+         PROJECT INTRO
+    ======================================== -->
+
+    <main class="project-page">
+
+        <section class="project-intro">
+
+            <p class="section-label">
+                START A PROJECT
+            </p>
+
+            <h1>
+                Let's build
+                <span>something</span>
+                great.
+            </h1>
+
+            <p class="project-description">
+                Tell us a little about your business, your idea,
+                and what you want to build. We'll take it from there.
+            </p>
+
+        </section>
+
+
+        <!-- ========================================
+             PROJECT FORM
+        ======================================== -->
+
+        <section class="project-form-section">
+
+ <form
+     class="project-form"
+     id="projectForm"
+     action="https://formspree.io/f/myezkwry"
+     method="POST"
+>
+
+                <div class="form-group">
+
+                    <label for="name">
+                        YOUR NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="business">
+                        BUSINESS / BRAND
+                    </label>
+
+                    <input
+                        type="text"
+                        id="business"
+                        name="business"
+                        placeholder="Your business name"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        EMAIL
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="service">
+                        WHAT DO YOU NEED?
+                    </label>
+
+                    <select id="service" name="service">
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option value="website">
+                            Website Design & Development
+                        </option>
+
+                        <option value="landing-page">
+                            Business Landing Page
+                        </option>
+
+                        <option value="brand">
+                            Brand Identity
+                        </option>
+
+                        <option value="uiux">
+                            UI/UX Design
+                        </option>
+
+                        <option value="other">
+                            Something Else
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="budget">
+                        PROJECT BUDGET
+                    </label>
+
+                    <select id="budget" name="budget">
+    <option value="">Select a range</option>
+    <option value="under-50k">Under ₦50,000</option>
+    <option value="50k-100k">₦50,000 – ₦100,000</option>
+    <option value="100k-150k">₦100,000 – ₦150,000</option>
+    <option value="150k-plus">₦150,000+</option>
+</select>
+
+                </div>
+
+
+                <div class="form-group form-full">
+
+                    <label for="message">
+                        TELL US ABOUT THE PROJECT
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        placeholder="What are you building? What do you need the website to achieve?"
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="submit-project">
+
+                    SEND PROJECT REQUEST
+
+                    <span>↗</span>
+
+                </button>
+
+                <p class="form-message" id="formMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         PROJECT FOOTER
+    ======================================== -->
+
+    <footer class="project-footer">
+
+        <span>© 2026 Cijay Digital</span>
+
+        <span>Built with purpose.</span>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
