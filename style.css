@@ -13,7 +13,7 @@ body {
 .eyebrow {
     font-size: 14px;
     letter-spacing: 3px;
-    color: #7c7cff;
+    color: #3B82F6;
     margin-bottom: 20px;
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .btn-secondary:hover {
-    border-color: #7c7cff;
-    color: #7c7cff;
+    border-color: #3B82F6;
+    color: #3B82F6;
 }
 /* ========================================
    PREMIUM NAVBAR
@@ -131,7 +131,7 @@ nav {
 .logo-text small {
     margin-top: 4px;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 7px;
     font-weight: 600;
@@ -175,7 +175,7 @@ nav {
     width: 0;
     height: 1px;
 
-    background: #7c7cff;
+    background: #3B82F6;
 
     transition: width 0.3s ease;
 }
@@ -286,7 +286,7 @@ nav {
     background:
         radial-gradient(
             circle at 75% 45%,
-            rgba(124, 124, 255, 0.18),
+            rgba(59, 130, 246, 0.18),
             transparent 30%
         ),
         radial-gradient(
@@ -353,7 +353,7 @@ nav {
 }
 
 .hero h1 span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .hero-description {
@@ -388,7 +388,7 @@ nav {
 
     box-shadow:
         0 30px 80px rgba(0, 0, 0, 0.45),
-        0 0 70px rgba(124, 124, 255, 0.14),
+        0 0 70px rgba(59, 130, 246, 0.14),
         inset 0 1px 0 rgba(255, 255, 255, 0.08);
 
     backdrop-filter: blur(18px);
@@ -412,7 +412,7 @@ transition: transform 0.5s ease;
 
     border-radius: 50%;
 
-    background: rgba(124, 124, 255, 0.16);
+    background: rgba(59, 130, 246, 0.16);
 
     filter: blur(60px);
 
@@ -535,7 +535,7 @@ transition: transform 0.5s ease;
 }
 
 .interface-content h3 span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .interface-metrics {
@@ -641,7 +641,7 @@ transition: transform 0.5s ease;
 }
 
 .analytics-top span:last-child {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .analytics-bars {
@@ -664,7 +664,7 @@ transition: transform 0.5s ease;
         linear-gradient(
             to top,
             #343448,
-            #7c7cff
+            #3B82F6
         );
 
     opacity: 0.7;
@@ -764,7 +764,7 @@ transition: transform 0.5s ease;
 }
 
 .visual-text small {
-    color: #7c7cff;
+    color: #3B82F6;
     letter-spacing: 5px;
     margin-top: 5px;
 }
@@ -812,7 +812,7 @@ transition: transform 0.5s ease;
 .services-intro {
     max-width: 330px;
     margin: 0;
-    color: #888;
+    color: #9AA3AD;
     font-size: 15px;
     line-height: 1.8;
 }
@@ -964,7 +964,7 @@ transition: transform 0.5s ease;
 }
 
 .service-card:hover .service-category {
-    color: #888;
+    color: #9AA3AD;
 }
 
 
@@ -1140,12 +1140,47 @@ transition: transform 0.5s ease;
         border-color 0.4s ease;
 }
 
+
+/* REMOVE DEFAULT LINK COLOURS */
+
+.project-preview,
+.project-preview:visited,
+.project-preview:hover,
+.project-preview:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+
 .featured-project:hover .project-preview {
     transform: translateY(-6px);
 
     border-color: #3a3a3a;
 }
+/* EMBER SPICE PROJECT IMAGE */
 
+.preview-image {
+    width: 100%;
+    height: calc(100% - 52px);
+
+    overflow: hidden;
+}
+
+.preview-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: top center;
+
+    display: block;
+
+    transition: transform 0.6s ease;
+}
+
+.featured-project:hover .preview-image img {
+    transform: scale(1.03);
+}
 
 /* BROWSER BAR */
 
@@ -1668,7 +1703,7 @@ transition: transform 0.5s ease;
 .section-label {
     margin: 0 0 25px;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 11px;
     font-weight: 600;
@@ -1800,12 +1835,12 @@ transition: transform 0.5s ease;
 
 
 .principle:hover > span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
 .principle:hover h3 {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -1946,7 +1981,7 @@ transition: transform 0.5s ease;
     background:
         radial-gradient(
             circle at 50% 40%,
-            rgba(124, 124, 255, 0.12),
+            rgba(59, 130, 246, 0.12),
             transparent 35%
         );
 
@@ -1967,7 +2002,7 @@ transition: transform 0.5s ease;
 
     transform: translate(-50%, -50%);
 
-    border: 1px solid rgba(124, 124, 255, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.08);
 
     border-radius: 50%;
 
@@ -2000,7 +2035,7 @@ transition: transform 0.5s ease;
 
 
 .contact-top h2 span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -2065,7 +2100,7 @@ transition: transform 0.5s ease;
 
 
 .contact-email:hover {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -2230,7 +2265,7 @@ transition: transform 0.5s ease;
 .footer-navigation p {
     margin: 0 0 10px;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 10px;
 
@@ -2324,7 +2359,7 @@ transition: transform 0.5s ease;
 }
 
 .form-message.success {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 /* ========================================
    WORK CTA - FINAL
@@ -2365,7 +2400,7 @@ transition: transform 0.5s ease;
 }
 
 .work-cta a:hover {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .work-cta a:hover > span {
@@ -2451,7 +2486,7 @@ transition: transform 0.5s ease;
     background:
         radial-gradient(
             circle at 70% 20%,
-            rgba(124, 124, 255, 0.10),
+            rgba(59, 130, 246, 0.10),
             transparent 30%
         );
 }
@@ -2478,7 +2513,7 @@ transition: transform 0.5s ease;
 }
 
 .project-intro h1 span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .project-description {
@@ -2565,7 +2600,7 @@ transition: transform 0.5s ease;
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-    border-bottom-color: #7c7cff;
+    border-bottom-color: #3B82F6;
 }
 
 .form-group select {
@@ -2626,7 +2661,7 @@ transition: transform 0.5s ease;
 .submit-project:hover {
     transform: translateY(-4px);
 
-    background: #7c7cff;
+    background: #3B82F6;
 
     color: #ffffff;
 }
@@ -2654,7 +2689,7 @@ transition: transform 0.5s ease;
 }
 
 .form-message.success {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -2764,7 +2799,7 @@ transition: transform 0.5s ease;
 .capabilities-label {
     flex-shrink: 0;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 9px;
     font-weight: 600;
@@ -2937,7 +2972,7 @@ transition: transform 0.5s ease;
 }
 
 .process-top span:last-child {
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 9px;
     font-weight: 600;
@@ -3098,7 +3133,7 @@ transition: transform 0.5s ease;
 
     background: radial-gradient(
         circle,
-        rgba(124, 124, 255, 0.10),
+        rgba(59, 130, 246, 0.10),
         transparent 70%
     );
 
@@ -3164,7 +3199,7 @@ transition: transform 0.5s ease;
 .why-cijay-statement p {
     margin: 0 0 20px;
 
-    color: #888888;
+  color: #9AA3AD;
 
     font-size: 18px;
 
@@ -3248,11 +3283,11 @@ transition: transform 0.5s ease;
 }
 
 .why-point:hover > span {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 .why-point:hover h3 {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -3404,7 +3439,7 @@ transition: transform 0.5s ease;
 .about-statement p {
     margin: 0 0 25px;
 
-    color: #888888;
+  color: #9AA3AD;
 
     font-size: 18px;
 
@@ -3487,7 +3522,7 @@ transition: transform 0.5s ease;
 
 .about-detail:hover > span,
 .about-detail:hover h3 {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -3630,13 +3665,13 @@ transition: transform 0.5s ease;
     top: -300px;
     left: 50%;
 
-    transform: translateX(-50%);
+   transform: translateX(-50%);
 
-    background: radial-gradient(
-        circle,
-        rgba(124, 124, 255, 0.13),
-        transparent 70%
-    );
+background: radial-gradient(
+    circle,
+    rgba(59, 130, 246, 0.13),
+    transparent 70%
+);
 
     pointer-events: none;
 }
@@ -3813,7 +3848,7 @@ transition: transform 0.5s ease;
 }
 
 .contact-bottom a:hover {
-    color: #7c7cff;
+    color: #3B82F6;
 }
 
 
@@ -3950,7 +3985,7 @@ transition: transform 0.5s ease;
 
     margin-top: 5px;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 7px;
     font-weight: 600;
@@ -4161,7 +4196,7 @@ transition: transform 0.5s ease;
 
     margin-top: 5px;
 
-    color: #7c7cff;
+    color: #3B82F6;
 
     font-size: 7px;
     font-weight: 600;
@@ -4191,6 +4226,2664 @@ transition: transform 0.5s ease;
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
+    }
+
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM TECH CARD SYSTEM
+======================================== */
+
+/* ---------- SERVICES ---------- */
+
+.service-card {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.045),
+            rgba(255, 255, 255, 0.012)
+        );
+    border-color: #202832;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.035),
+        0 15px 45px rgba(0, 0, 0, 0.18);
+    transition:
+        background 0.45s ease,
+        border-color 0.45s ease,
+        transform 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+.service-card::before {
+    width: 320px;
+    height: 320px;
+    top: -160px;
+    right: -160px;
+    background: #3B82F6;
+    opacity: 0;
+    filter: blur(100px);
+    transition: opacity 0.5s ease;
+}
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0;
+    background: #3B82F6;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.45);
+    transition: height 0.45s ease;
+}
+
+.service-card:hover {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.075),
+            rgba(255, 255, 255, 0.018)
+        );
+    border-color: rgba(59, 130, 246, 0.38);
+    transform: translateY(-5px);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.05),
+        0 20px 55px rgba(0, 0, 0, 0.28),
+        0 0 45px rgba(59, 130, 246, 0.08);
+}
+
+.service-card:hover::before {
+    opacity: 0.10;
+}
+
+.service-card:hover::after {
+    height: 100%;
+}
+
+.service-number {
+    color: #66717e;
+}
+
+.service-card:hover .service-number {
+    color: #60A5FA;
+}
+
+.service-category {
+    color: #687381;
+}
+
+.service-card:hover .service-category {
+    color: #60A5FA;
+}
+
+.service-content p {
+    color: #8b949e;
+}
+
+.service-card:hover .service-content p {
+    color: #aeb7c1;
+}
+
+.service-arrow {
+    border-color: #303a46;
+    color: #8b949e;
+    background: rgba(255, 255, 255, 0.015);
+}
+
+.service-card:hover .service-arrow {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+}
+
+
+/* ---------- SELECTED WORK MINI PROJECTS ---------- */
+
+.mini-project {
+    background:
+        linear-gradient(
+            145deg,
+            #0d1116,
+            #07090c
+        );
+    transition:
+        background 0.45s ease,
+        transform 0.45s ease;
+}
+
+.mini-preview {
+    background:
+        radial-gradient(
+            circle at 70% 30%,
+            rgba(59, 130, 246, 0.10),
+            transparent 45%
+        ),
+        linear-gradient(
+            145deg,
+            #11161c,
+            #07090c
+        );
+    border-bottom-color: #202832;
+}
+
+.mini-preview-one,
+.mini-preview-two {
+    background:
+        radial-gradient(
+            circle at 70% 30%,
+            rgba(59, 130, 246, 0.10),
+            transparent 45%
+        ),
+        linear-gradient(
+            145deg,
+            #11161c,
+            #07090c
+        );
+}
+
+.mini-preview span {
+    color: #26303b;
+}
+
+.mini-project:hover {
+    background: #0d1218;
+}
+
+.mini-project:hover .mini-preview span {
+    color: #3B82F6;
+    text-shadow: 0 0 30px rgba(59, 130, 246, 0.20);
+}
+
+.mini-number {
+    color: #66717e;
+}
+
+.mini-category {
+    color: #53606d;
+}
+
+.mini-arrow {
+    color: #66717e;
+}
+
+.mini-project:hover .mini-arrow {
+    color: #60A5FA;
+}
+
+
+/* ---------- PROCESS ---------- */
+
+.process-step {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.035),
+            rgba(255, 255, 255, 0.008)
+        );
+    border-right-color: #202832;
+    transition:
+        background 0.45s ease,
+        transform 0.45s ease,
+        border-color 0.45s ease;
+}
+
+.process-step::before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    top: -130px;
+    right: -130px;
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(100px);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.process-step:hover {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.065),
+            rgba(255, 255, 255, 0.012)
+        );
+    border-color: rgba(59, 130, 246, 0.30);
+    transform: translateY(-4px);
+}
+
+.process-step:hover::before {
+    opacity: 0.08;
+}
+
+.process-top {
+    border-bottom-color: #202832;
+}
+
+.process-top span:first-child {
+    color: #66717e;
+}
+
+.process-top span:last-child {
+    color: #60A5FA;
+}
+
+.process-icon {
+    background: rgba(255, 255, 255, 0.018);
+    border-color: #303a46;
+    color: #8b949e;
+}
+
+.process-step:hover .process-icon {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+}
+
+.process-step p {
+    color: #8b949e;
+}
+
+
+/* ---------- WHY CIJAY ---------- */
+
+.why-point {
+    position: relative;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.018),
+            transparent
+        );
+    border-bottom-color: #202832;
+    transition:
+        padding-left 0.35s ease,
+        background 0.4s ease,
+        border-color 0.4s ease;
+}
+
+.why-point:hover {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(59, 130, 246, 0.07),
+            transparent 65%
+        );
+    border-bottom-color: rgba(59, 130, 246, 0.25);
+}
+
+.why-point > span {
+    color: #66717e;
+}
+
+.why-point:hover > span {
+    color: #60A5FA;
+}
+
+.why-point p {
+    color: #8b949e;
+}
+
+
+/* ---------- ABOUT PRINCIPLES ---------- */
+
+.principle {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.018),
+            transparent
+        );
+    border-bottom-color: #202832;
+}
+
+.principle:hover {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(59, 130, 246, 0.06),
+            transparent 65%
+        );
+}
+
+.principle > span {
+    color: #66717e;
+}
+
+.principle:hover > span {
+    color: #60A5FA;
+}
+
+.principle p {
+    color: #8b949e;
+}
+
+
+/* ---------- ABOUT DETAILS ---------- */
+
+.about-detail {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.018),
+            transparent
+        );
+    border-bottom-color: #202832;
+}
+
+.about-detail:hover {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(59, 130, 246, 0.06),
+            transparent 65%
+        );
+}
+
+.about-detail > span {
+    color: #66717e;
+}
+
+.about-detail:hover > span,
+.about-detail:hover h3 {
+    color: #60A5FA;
+}
+
+.about-detail p {
+    color: #8b949e;
+}
+
+
+/* ---------- ABOUT STATS ---------- */
+
+.about-stat {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.025),
+            rgba(255, 255, 255, 0.005)
+        );
+    border-right-color: #202832;
+}
+
+.about-stat span {
+    color: #66717e;
+}
+
+
+/* ---------- CONTACT DETAILS ---------- */
+
+.contact-bottom {
+    background: #202832;
+}
+
+.contact-bottom > div {
+    background:
+        linear-gradient(
+            145deg,
+            #0d1218,
+            #080b0f
+        );
+}
+
+.contact-bottom span {
+    color: #66717e;
+}
+
+.contact-bottom strong,
+.contact-bottom a {
+    color: #f5f7fa;
+}
+
+.contact-bottom a:hover {
+    color: #60A5FA;
+}
+
+
+/* ---------- CAPABILITIES ---------- */
+
+.capabilities {
+    background:
+        linear-gradient(
+            90deg,
+            #080b0f,
+            #0c1117,
+            #080b0f
+        );
+    border-top-color: #202832;
+    border-bottom-color: #202832;
+}
+
+.capabilities-list {
+    color: #8b949e;
+}
+
+.capabilities-list i {
+    color: #3B82F6;
+}
+
+
+/* ---------- EMBER SPICE PREVIEW ---------- */
+
+.project-preview {
+    border-color: #202832;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.featured-project:hover .project-preview {
+    border-color: rgba(59, 130, 246, 0.38);
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.30),
+        0 0 45px rgba(59, 130, 246, 0.07);
+}
+
+.project-arrow {
+    border-color: #303a46;
+}
+
+.featured-project:hover .project-arrow {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+}
+
+
+/* ---------- CONTACT BUTTON ---------- */
+
+.contact-button {
+    border-color: #303a46;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.035),
+            rgba(255, 255, 255, 0.01)
+        );
+}
+
+.contact-button:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    box-shadow: 0 0 35px rgba(59, 130, 246, 0.20);
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .service-card:hover,
+    .process-step:hover {
+        transform: none;
+    }
+
+    .service-card::after {
+        display: none;
+    }
+
+    .mini-project:hover .mini-preview span {
+        transform: none;
+    }
+
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM HERO UPGRADE
+======================================== */
+
+.hero {
+    background:
+        radial-gradient(
+            circle at 72% 45%,
+            rgba(59, 130, 246, 0.14),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(59, 130, 246, 0.05),
+            transparent 25%
+        ),
+        #05060a;
+}
+
+.hero::before {
+    opacity: 0.35;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-badge {
+    border-color: rgba(59, 130, 246, 0.25);
+    background: rgba(59, 130, 246, 0.045);
+    box-shadow:
+        0 0 25px rgba(59, 130, 246, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.hero-badge span {
+    box-shadow: 0 0 10px rgba(110, 255, 154, 0.45);
+}
+
+.hero h1 {
+    letter-spacing: -2.5px;
+}
+
+.hero h1 span {
+    color: #3B82F6;
+    text-shadow: 0 0 45px rgba(59, 130, 246, 0.18);
+}
+
+.hero-description {
+    color: #a5adb7;
+}
+
+.hero-visual {
+    position: relative;
+    z-index: 2;
+}
+
+.visual-card {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.012)
+        );
+    border-color: #202832;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.045),
+        0 30px 90px rgba(0, 0, 0, 0.45),
+        0 0 70px rgba(59, 130, 246, 0.07);
+}
+
+.visual-card::before {
+    background: #3B82F6;
+    opacity: 0.08;
+    filter: blur(80px);
+}
+
+.visual-card::after {
+    background: #60A5FA;
+    opacity: 0.08;
+}
+
+.visual-card:hover {
+    border-color: rgba(59, 130, 246, 0.35);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.06),
+        0 35px 100px rgba(0, 0, 0, 0.5),
+        0 0 80px rgba(59, 130, 246, 0.10);
+}
+
+.hero .btn-primary {
+    box-shadow:
+        0 10px 30px rgba(59, 130, 246, 0.15);
+}
+
+.hero .btn-primary:hover {
+    box-shadow:
+        0 15px 40px rgba(59, 130, 246, 0.25);
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM WORK SECTION
+======================================== */
+
+.work {
+    position: relative;
+    overflow: hidden;
+}
+
+.work::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 15%;
+    right: -250px;
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(180px);
+    opacity: 0.035;
+    pointer-events: none;
+}
+
+.work-header,
+.featured-project,
+.mini-projects {
+    position: relative;
+    z-index: 1;
+}
+
+.work-header h2 {
+    letter-spacing: -1.5px;
+}
+
+.work-header h2 span {
+    color: #8b949e;
+}
+
+.work-intro {
+    color: #8b949e;
+}
+
+
+/* ---------- FEATURED PROJECT ---------- */
+
+.featured-project {
+    border-top-color: #202832;
+}
+
+.project-preview {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 72% 28%,
+            rgba(59, 130, 246, 0.14),
+            transparent 30%
+        ),
+        linear-gradient(
+            145deg,
+            #11161c,
+            #07090c
+        );
+    border-color: #202832;
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.035);
+    transition:
+        transform 0.5s ease,
+        border-color 0.5s ease,
+        box-shadow 0.5s ease;
+}
+
+.project-preview::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            120deg,
+            transparent 30%,
+            rgba(59, 130, 246, 0.06),
+            transparent 70%
+        );
+    transform: translateX(-100%);
+    transition: transform 0.8s ease;
+    pointer-events: none;
+}
+
+.featured-project:hover .project-preview::after {
+    transform: translateX(100%);
+}
+
+.featured-project:hover .project-preview {
+    transform: translateY(-7px);
+    border-color: rgba(59, 130, 246, 0.38);
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.35),
+        0 0 55px rgba(59, 130, 246, 0.08);
+}
+
+.preview-image {
+    transition: transform 0.6s ease;
+}
+
+.featured-project:hover .preview-image {
+    transform: scale(1.015);
+}
+
+
+/* ---------- PROJECT INFO ---------- */
+
+.project-info h3 {
+    letter-spacing: -0.5px;
+}
+
+.project-info p {
+    color: #8b949e;
+}
+
+.project-meta span {
+    color: #66717e;
+}
+
+.project-arrow {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: #303a46;
+    color: #8b949e;
+    transition:
+        background 0.35s ease,
+        border-color 0.35s ease,
+        transform 0.35s ease;
+}
+
+.featured-project:hover .project-arrow {
+    transform: translate(3px, -3px);
+}
+
+
+/* ---------- MINI PROJECTS ---------- */
+
+.mini-projects {
+    gap: 18px;
+}
+
+.mini-project {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #202832;
+    background:
+        linear-gradient(
+            145deg,
+            #0d1218,
+            #07090c
+        );
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.025);
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+.mini-project:hover {
+    transform: translateY(-5px);
+    border-color: rgba(59, 130, 246, 0.30);
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.28),
+        0 0 35px rgba(59, 130, 246, 0.05);
+}
+
+.mini-preview-one,
+.mini-preview-two {
+    position: relative;
+    overflow: hidden;
+}
+
+.mini-project h4 {
+    color: #f5f7fa;
+}
+
+.mini-project p {
+    color: #7f8994;
+}
+
+.mini-category {
+    color: #60A5FA;
+}
+
+.mini-number {
+    color: #66717e;
+}
+
+.mini-arrow {
+    color: #66717e;
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.mini-project:hover .mini-arrow {
+    color: #60A5FA;
+    transform: translate(3px, -3px);
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM PROCESS SECTION
+======================================== */
+
+.process {
+    position: relative;
+    overflow: hidden;
+}
+
+.process::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: -250px;
+    top: 25%;
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(180px);
+    opacity: 0.035;
+    pointer-events: none;
+}
+
+.process-header,
+.process-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.process-header h2 {
+    letter-spacing: -1.5px;
+}
+
+.process-header h2 span {
+    color: #8b949e;
+}
+
+.process-intro {
+    color: #8b949e;
+}
+
+
+/* ---------- PROCESS GRID ---------- */
+
+.process-grid {
+    border-color: #202832;
+}
+
+.process-step {
+    position: relative;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(255, 255, 255, 0.008)
+        );
+    border-right-color: #202832;
+    transition:
+        transform 0.45s ease,
+        background 0.45s ease,
+        border-color 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+.process-step:hover {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.075),
+            rgba(255, 255, 255, 0.012)
+        );
+    border-color: rgba(59, 130, 246, 0.35);
+    transform: translateY(-6px);
+    box-shadow:
+        0 25px 55px rgba(0, 0, 0, 0.25),
+        0 0 40px rgba(59, 130, 246, 0.06);
+}
+
+
+/* ---------- TOP LABEL ---------- */
+
+.process-top {
+    border-bottom-color: #202832;
+}
+
+.process-top span:first-child {
+    color: #66717e;
+}
+
+.process-top span:last-child {
+    color: #60A5FA;
+}
+
+
+/* ---------- ICON ---------- */
+
+.process-icon {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(255, 255, 255, 0.01)
+        );
+    border-color: #303a46;
+    color: #8b949e;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    transition:
+        background 0.35s ease,
+        border-color 0.35s ease,
+        color 0.35s ease,
+        box-shadow 0.35s ease,
+        transform 0.35s ease;
+}
+
+.process-step:hover .process-icon {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    box-shadow:
+        0 0 30px rgba(59, 130, 246, 0.25);
+    transform: translateY(-2px);
+}
+
+
+/* ---------- TEXT ---------- */
+
+.process-step h3 {
+    color: #f5f7fa;
+}
+
+.process-step p {
+    color: #8b949e;
+}
+
+.process-step:hover p {
+    color: #aeb7c1;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .process-step:hover {
+        transform: none;
+    }
+
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM WHY CIJAY
+======================================== */
+
+.why-cijay {
+    position: relative;
+    overflow: hidden;
+}
+
+.why-cijay::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: -300px;
+    top: 20%;
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(180px);
+    opacity: 0.035;
+    pointer-events: none;
+}
+
+.why-cijay-header,
+.why-cijay-content {
+    position: relative;
+    z-index: 1;
+}
+
+.why-cijay-header h2 {
+    letter-spacing: -1.5px;
+}
+
+.why-cijay-header h2 span {
+    color: #8b949e;
+}
+
+.why-cijay-statement p {
+    color: #a5adb7;
+}
+
+
+/* ---------- WHY POINTS ---------- */
+
+.why-point {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025),
+            transparent 75%
+        );
+    border-bottom-color: #202832;
+    transition:
+        padding-left 0.4s ease,
+        background 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+.why-point::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0;
+    background: #3B82F6;
+    box-shadow:
+        0 0 20px rgba(59, 130, 246, 0.45);
+    transition: height 0.4s ease;
+}
+
+.why-point:hover {
+    padding-left: 16px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(59, 130, 246, 0.075),
+            transparent 75%
+        );
+    border-bottom-color: rgba(59, 130, 246, 0.28);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.why-point:hover::before {
+    height: 100%;
+}
+
+
+/* ---------- NUMBERS ---------- */
+
+.why-point > span {
+    color: #66717e;
+    transition: color 0.3s ease;
+}
+
+.why-point:hover > span {
+    color: #60A5FA;
+}
+
+
+/* ---------- TEXT ---------- */
+
+.why-point h3 {
+    color: #f5f7fa;
+    transition: color 0.3s ease;
+}
+
+.why-point:hover h3 {
+    color: #60A5FA;
+}
+
+.why-point p {
+    color: #8b949e;
+}
+
+.why-point:hover p {
+    color: #aeb7c1;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .why-point:hover {
+        padding-left: 12px;
+    }
+
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM ABOUT SECTION
+======================================== */
+
+.about {
+    position: relative;
+    overflow: hidden;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: -280px;
+    top: 25%;
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(180px);
+    opacity: 0.035;
+    pointer-events: none;
+}
+
+.about-header,
+.about-main,
+.about-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.about-header h2 {
+    letter-spacing: -1.5px;
+}
+
+.about-header h2 span {
+    color: #8b949e;
+}
+
+.about-statement p {
+    color: #a5adb7;
+}
+
+
+/* ---------- ABOUT DETAILS ---------- */
+
+.about-detail {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.025),
+            transparent 75%
+        );
+    border-bottom-color: #202832;
+    transition:
+        padding-left 0.4s ease,
+        background 0.4s ease,
+        border-color 0.4s ease;
+}
+
+.about-detail::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0;
+    background: #3B82F6;
+    box-shadow:
+        0 0 20px rgba(59, 130, 246, 0.45);
+    transition: height 0.4s ease;
+}
+
+.about-detail:hover {
+    padding-left: 16px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(59, 130, 246, 0.065),
+            transparent 75%
+        );
+    border-bottom-color: rgba(59, 130, 246, 0.25);
+}
+
+.about-detail:hover::before {
+    height: 100%;
+}
+
+.about-detail > span {
+    color: #66717e;
+    transition: color 0.3s ease;
+}
+
+.about-detail:hover > span {
+    color: #60A5FA;
+}
+
+.about-detail h3 {
+    color: #f5f7fa;
+    transition: color 0.3s ease;
+}
+
+.about-detail:hover h3 {
+    color: #60A5FA;
+}
+
+.about-detail p {
+    color: #8b949e;
+}
+
+.about-detail:hover p {
+    color: #aeb7c1;
+}
+
+
+/* ---------- ABOUT STATS ---------- */
+
+.about-footer {
+    border-top-color: #202832;
+}
+
+.about-stat {
+    position: relative;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.035),
+            rgba(255, 255, 255, 0.008)
+        );
+    border-right-color: #202832;
+    transition:
+        background 0.35s ease,
+        transform 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.about-stat:hover {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.065),
+            rgba(255, 255, 255, 0.01)
+        );
+    border-color: rgba(59, 130, 246, 0.28);
+    transform: translateY(-4px);
+}
+
+.about-stat strong {
+    color: #f5f7fa;
+}
+
+.about-stat span {
+    color: #66717e;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 800px) {
+
+    .about-detail:hover {
+        padding-left: 12px;
+    }
+
+    .about-stat:hover {
+        transform: none;
+    }
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM CONTACT
+======================================== */
+
+.contact {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(200px);
+    opacity: 0.035;
+    pointer-events: none;
+}
+
+.contact-header,
+.contact-bottom {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-header h2 {
+    letter-spacing: -1.5px;
+}
+
+.contact-header h2 span {
+    color: #8b949e;
+}
+
+.contact-intro {
+    color: #8b949e;
+}
+
+.contact-button {
+    position: relative;
+    overflow: hidden;
+    border-color: #303a46;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.045),
+            rgba(255, 255, 255, 0.01)
+        );
+    transition:
+        background 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        transform 0.35s ease;
+}
+
+.contact-button:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow:
+        0 15px 40px rgba(59, 130, 246, 0.20);
+}
+
+
+/* ---------- CONTACT INFO PANELS ---------- */
+
+.contact-bottom {
+    background: #202832;
+}
+
+.contact-bottom > div {
+    background:
+        linear-gradient(
+            145deg,
+            #0e1319,
+            #080b0f
+        );
+    transition:
+        background 0.35s ease;
+}
+
+.contact-bottom > div:hover {
+    background:
+        linear-gradient(
+            145deg,
+            #111820,
+            #090d12
+        );
+}
+
+.contact-bottom span {
+    color: #66717e;
+}
+
+.contact-bottom strong {
+    color: #f5f7fa;
+}
+
+.contact-bottom a {
+    color: #a5adb7;
+    transition: color 0.3s ease;
+}
+
+.contact-bottom a:hover {
+    color: #60A5FA;
+}
+
+
+/* ========================================
+   PREMIUM FOOTER
+======================================== */
+
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: -180px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #3B82F6;
+    filter: blur(120px);
+    opacity: 0.04;
+    pointer-events: none;
+}
+
+.footer-top,
+.footer-bottom {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-logo-text small {
+    color: #3B82F6;
+}
+
+.footer-brand p {
+    color: #66717e;
+}
+
+.footer-column a {
+    color: #7f8994;
+    transition:
+        color 0.3s ease,
+        padding-left 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #60A5FA;
+    padding-left: 4px;
+}
+
+.footer-bottom {
+    border-top-color: #202832;
+}
+
+.footer-bottom p {
+    color: #53606d;
+}
+/* ========================================
+   CIJAY DIGITAL — PREMIUM SERVICES
+======================================== */
+
+.services {
+    position: relative;
+    overflow: hidden;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 5%;
+    right: -250px;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.10),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.services-header {
+    position: relative;
+    z-index: 2;
+}
+
+.services-intro {
+    max-width: 440px;
+    color: #9AA3AD;
+    line-height: 1.7;
+}
+
+.services-grid {
+    position: relative;
+    z-index: 2;
+}
+
+.service-card {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.035),
+            rgba(255, 255, 255, 0.008)
+        ),
+        #0D1014;
+    border: 1px solid #1D242D;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        background 0.35s ease;
+}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: -120px;
+    right: -100px;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.14),
+        transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(59, 130, 246, 0.45);
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.35),
+        0 0 35px rgba(59, 130, 246, 0.08);
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.055),
+            rgba(255, 255, 255, 0.01)
+        ),
+        #0D1014;
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-number {
+    color: #60A5FA;
+}
+
+.service-category {
+    color: #9AA3AD;
+}
+
+.service-content h3 {
+    color: #F5F7FA;
+}
+
+.service-content > p:last-child {
+    color: #9AA3AD;
+}
+
+.service-arrow {
+    color: #60A5FA;
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+.service-card:hover .service-arrow {
+    transform: translate(4px, -4px);
+    color: #F5F7FA;
+}
+/* ========================================
+   SERVICES — TYPOGRAPHY UPGRADE
+======================================== */
+
+.service-content h3 {
+    font-size: 26px;
+    line-height: 1.2;
+    color: #F5F7FA;
+    letter-spacing: -0.02em;
+}
+
+.service-content > p:last-child {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #A8B0BA;
+    max-width: 430px;
+}
+
+.service-category {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: #60A5FA;
+}
+
+.service-number {
+    font-size: 14px;
+    font-weight: 600;
+    color: #60A5FA;
+}
+ /* ========================================
+    SELECTED WORK — PROJECT UPGRADE
+ ======================================== */
+
+.work {
+    position: relative;
+    overflow: hidden;
+}
+
+.work::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 10%;
+    left: -300px;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.08),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.work-header,
+.featured-project,
+.project-grid,
+.work-cta {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* FEATURED PROJECT */
+
+.featured-project {
+    background: #0D1014;
+    border: 1px solid #1D242D;
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+.featured-project:hover {
+    transform: translateY(-6px);
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(59, 130, 246, 0.08);
+}
+
+
+/* PROJECT PREVIEW */
+
+.project-preview {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.preview-image {
+    overflow: hidden;
+}
+
+.preview-image img {
+    display: block;
+    width: 100%;
+    transition:
+        transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+        filter 0.5s ease;
+}
+
+.project-preview:hover .preview-image img {
+    transform: scale(1.035);
+}
+
+
+/* BROWSER BAR */
+
+.browser-bar {
+    background: #090B0E;
+    border-bottom: 1px solid #1D242D;
+}
+
+.browser-address {
+    color: #7F8A96;
+}
+
+
+/* PROJECT INFORMATION */
+
+.project-info {
+    background: #0D1014;
+}
+
+.project-title-row h3 {
+    color: #F5F7FA;
+    font-size: clamp(30px, 4vw, 48px);
+    letter-spacing: -0.035em;
+}
+
+.project-info > p {
+    color: #A8B0BA;
+    font-size: 16px;
+    line-height: 1.75;
+    max-width: 620px;
+}
+
+.project-meta {
+    color: #7F8A96;
+}
+
+.project-meta span:last-child {
+    color: #60A5FA;
+}
+
+
+/* PROJECT ARROW */
+
+.project-arrow {
+    border: 1px solid #1D242D;
+    color: #60A5FA;
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.project-title-row:hover .project-arrow {
+    transform: translate(4px, -4px);
+    border-color: rgba(59, 130, 246, 0.5);
+    background: rgba(59, 130, 246, 0.08);
+    color: #F5F7FA;
+}
+ /* ========================================
+    PROCESS — PREMIUM SYSTEM
+ ======================================== */
+
+.process {
+    position: relative;
+    overflow: hidden;
+}
+
+.process::before {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    right: -280px;
+    bottom: 0;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.07),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.process-header,
+.process-grid {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* PROCESS CARDS */
+
+.process-step {
+    position: relative;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.03),
+            rgba(255, 255, 255, 0.008)
+        ),
+        #0D1014;
+    border: 1px solid #1D242D;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.process-step::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: -90px;
+    right: -90px;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.14),
+        transparent 70%
+    );
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.process-step:hover {
+    transform: translateY(-7px);
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow:
+        0 20px 55px rgba(0, 0, 0, 0.35),
+        0 0 30px rgba(59, 130, 246, 0.07);
+}
+
+.process-step:hover::before {
+    opacity: 1;
+}
+
+
+/* TOP LABEL */
+
+.process-top span:first-child {
+    color: #60A5FA;
+    font-weight: 600;
+}
+
+.process-top span:last-child {
+    color: #7F8A96;
+}
+
+
+/* ICON */
+
+.process-icon {
+    color: #60A5FA;
+    transition:
+        transform 0.35s ease,
+        color 0.35s ease;
+}
+
+.process-step:hover .process-icon {
+    transform: rotate(90deg);
+    color: #F5F7FA;
+}
+
+
+/* HEADINGS */
+
+.process-step h3 {
+    color: #F5F7FA;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+.process-step h3 span {
+    color: #60A5FA;
+}
+
+
+/* DESCRIPTION */
+
+.process-step p {
+    color: #A8B0BA;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* PROCESS INTRO */
+
+.process-intro {
+    color: #9AA3AD;
+    line-height: 1.7;
+}
+/* ========================================
+   PROCESS — HOVER CONTAINMENT FIX
+======================================== */
+
+.process-grid {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.process-step {
+    transform: translateY(0);
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+}
+/* ========================================
+   WHY CIJAY — PREMIUM SYSTEM
+======================================== */
+
+.why {
+    position: relative;
+    overflow: hidden;
+}
+
+.why::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    top: 10%;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.07),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.why-header,
+.why-content {
+    position: relative;
+    z-index: 2;
+}
+
+.why-header h2 {
+    color: #F5F7FA;
+    letter-spacing: -0.035em;
+}
+
+.why-intro {
+    color: #9AA3AD;
+    line-height: 1.7;
+}
+
+.why-statement {
+    color: #F5F7FA;
+}
+
+.why-statement strong {
+    color: #60A5FA;
+}
+
+.why-item {
+    position: relative;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.03),
+            rgba(255, 255, 255, 0.008)
+        ),
+        #0D1014;
+    border: 1px solid #1D242D;
+    transition:
+        transform 0.35s ease,
+        border-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.why-item:hover {
+    transform: translateY(-5px);
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow:
+        0 18px 50px rgba(0, 0, 0, 0.35),
+        0 0 30px rgba(59, 130, 246, 0.07);
+}
+
+.why-item-number {
+    color: #60A5FA;
+}
+
+.why-item h3 {
+    color: #F5F7FA;
+}
+
+.why-item p {
+    color: #A8B0BA;
+    line-height: 1.7;
+}
+/* ========================================
+   ABOUT — PREMIUM SYSTEM
+======================================== */
+
+.about {
+    position: relative;
+    overflow: hidden;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: -250px;
+    top: 15%;
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.07),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.about-content {
+    position: relative;
+    z-index: 2;
+}
+
+.about-heading {
+    color: #F5F7FA;
+    letter-spacing: -0.035em;
+}
+
+.about-statement {
+    color: #A8B0BA;
+    line-height: 1.8;
+}
+
+.about-statement strong {
+    color: #F5F7FA;
+}
+
+.about-details {
+    position: relative;
+    z-index: 2;
+}
+
+.about-detail {
+    border-top: 1px solid #1D242D;
+    transition:
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.about-detail:hover {
+    border-color: rgba(59, 130, 246, 0.45);
+    transform: translateX(5px);
+}
+
+.about-detail h3 {
+    color: #F5F7FA;
+}
+
+.about-detail p {
+    color: #8F99A4;
+}
+
+.about-meta {
+    color: #7F8A96;
+}
+
+.about-meta span {
+    color: #60A5FA;
+}
+/* ========================================
+   CONTACT + FOOTER — PREMIUM SYSTEM
+======================================== */
+
+.contact {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+        circle,
+        rgba(59, 130, 246, 0.10),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.contact-content,
+.contact-card {
+    position: relative;
+    z-index: 2;
+}
+
+.contact h2 {
+    color: #F5F7FA;
+    letter-spacing: -0.04em;
+}
+
+.contact-intro {
+    color: #A8B0BA;
+    line-height: 1.7;
+}
+
+.contact-button {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 12px 35px rgba(59, 130, 246, 0.20);
+}
+
+.contact-details {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-detail {
+    border-top: 1px solid #1D242D;
+}
+
+.contact-detail span:first-child {
+    color: #7F8A96;
+}
+
+.contact-detail span:last-child {
+    color: #F5F7FA;
+}
+
+.footer {
+    position: relative;
+    border-top: 1px solid #1D242D;
+}
+
+.footer a {
+    transition:
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.footer a:hover {
+    color: #60A5FA;
+}
+
+.footer-bottom {
+    border-top: 1px solid #1D242D;
+}
+
+.footer-bottom span {
+    color: #7F8A96;
+}
+/* ========================================
+   LIVE PROJECT LABEL
+======================================== */
+
+.project-preview {
+    position: relative;
+}
+
+.live-project-label {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 5;
+
+    padding: 10px 14px;
+
+    background: rgba(8, 9, 11, 0.82);
+    border: 1px solid rgba(59, 130, 246, 0.45);
+    border-radius: 999px;
+
+    color: #F5F7FA;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+
+    backdrop-filter: blur(10px);
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.project-preview:hover .live-project-label {
+    background: rgba(59, 130, 246, 0.14);
+    border-color: #60A5FA;
+    transform: translateY(-2px);
+}
+/* ========================================
+   CONTACT — PRICING SIGNAL
+======================================== */
+
+.contact-pricing {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 28px 0 30px;
+    padding: 18px 22px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(59, 130, 246, 0.08),
+            rgba(255, 255, 255, 0.015)
+        ),
+        #0D1014;
+    border: 1px solid #1D242D;
+    border-radius: 12px;
+}
+
+.contact-pricing > span {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: #7F8A96;
+}
+
+.contact-pricing strong {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #60A5FA;
+}
+
+.contact-pricing p {
+    max-width: 390px;
+    margin: 4px 0 0;
+    color: #8F99A4;
+    font-size: 13px;
+    line-height: 1.6;
+}
+/* ========================================
+   START A PROJECT — HOVER FIX
+======================================== */
+
+.start-project-btn:hover,
+.cta-button:hover {
+    background: #3B82F6;
+    color: #FFFFFF;
+    border-color: #3B82F6;
+    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.22);
+}
+/* ========================================
+   START A PROJECT — BLUE HOVER
+======================================== */
+
+.contact-button:hover {
+    background: #3B82F6;
+    color: #FFFFFF;
+    border-color: #3B82F6;
+    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.22);
+}
+.contact-button {
+    background: #F5F7FA !important;
+    color: #08090B !important;
+    border: 1px solid #F5F7FA !important;
+}
+
+.contact-button:hover {
+    background: #3B82F6 !important;
+    color: #FFFFFF !important;
+    border-color: #3B82F6 !important;
+}
+
+.contact-button:hover span {
+    color: #FFFFFF !important;
+}
+/* ========================================
+   ABOUT CIJAY — FULL BACKGROUND IMAGE
+======================================== */
+
+.about.about-image-section {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(8, 9, 11, 0.60),
+            rgba(8, 9, 11, 0.60)
+        ),
+        url("assets/about-bg.jpg");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about.about-image-section::before {
+    display: none;
+}
+
+.about.about-image-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 70% 45%,
+            rgba(59, 130, 246, 0.14),
+            transparent 55%
+        );
+
+    pointer-events: none;
+}
+
+.about.about-image-section > * {
+    position: relative;
+    z-index: 2;
+}
+/* ========================================
+   HOW WE WORK — FULL BACKGROUND IMAGE
+======================================== */
+
+.process {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(8, 9, 11, 0.60),
+            rgba(8, 9, 11, 0.60)
+        ),
+        url("assets/how-we-work-bg.jpg.png");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.process::before {
+    display: none;
+}
+
+.process::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 70% 45%,
+            rgba(59, 130, 246, 0.16),
+            transparent 55%
+        );
+
+    pointer-events: none;
+}
+
+.process > * {
+    position: relative;
+    z-index: 2;
+}
+/* ========================================
+   WHY CIJAY — FULL BACKGROUND IMAGE
+======================================== */
+
+.why {
+    position: relative;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(
+            rgba(8, 9, 11, 0.68),
+            rgba(8, 9, 11, 0.68)
+        ),
+        url("assets/why-cijay-is-great-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.why::before {
+    display: none;
+}
+
+.why::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 70% 45%,
+            rgba(59, 130, 246, 0.14),
+            transparent 55%
+        );
+
+    pointer-events: none;
+}
+
+.why > * {
+    position: relative;
+    z-index: 2;
+}
+.start-project-btn {
+    background: #08090B;
+    color: #F5F7FA;
+    border: 1px solid #2A313A;
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.start-project-btn:hover {
+    background: #3B82F6;
+    color: #FFFFFF;
+    border-color: #3B82F6;
+    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.22);
+    transform: translateY(-2px);
+}
+/* ========================================
+   START A PROJECT — BUTTON HOVER
+======================================== */
+
+.nav-cta:hover,
+.btn.btn-primary:hover,
+.contact-button:hover {
+    background: #3B82F6 !important;
+    color: #FFFFFF !important;
+    border-color: #3B82F6 !important;
+    box-shadow: 0 12px 35px rgba(59, 130, 246, 0.22);
+    transform: translateY(-2px);
+}
+
+.nav-cta:hover span,
+.btn.btn-primary:hover span,
+.contact-button:hover span {
+    color: #FFFFFF !important;
+}
+/* START A PROJECT BACKGROUND TEST */
+
+.project-page {
+    position: relative;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(
+            rgba(5, 6, 10, 0.78),
+            rgba(5, 6, 10, 0.82)
+        ),
+        url("./assets/select-a-project-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ========================================
+   START A PROJECT — FORM READABILITY
+======================================== */
+
+.project-form {
+    position: relative;
+    z-index: 3;
+
+    background: rgba(8, 9, 11, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow:
+        0 25px 80px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+.project-form input,
+.project-form select,
+.project-form textarea {
+    background: rgba(5, 6, 10, 0.72);
+    border-color: rgba(255, 255, 255, 0.12);
+    color: #F5F7FA;
+}
+
+.project-form input::placeholder,
+.project-form textarea::placeholder {
+    color: #7F8A96;
+}
+
+.project-form input:focus,
+.project-form select:focus,
+.project-form textarea:focus {
+    border-color: rgba(59, 130, 246, 0.65);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.08);
+}
+/* ========================================
+   NAVIGATION — SLIGHTLY LARGER LINKS
+======================================== */
+
+.nav-links a {
+    font-size: 14px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+/* ========================================
+   START A PROJECT — FORM SPACING
+======================================== */
+
+.project-form {
+    padding: 42px 48px;
+}
+@media (max-width: 800px) {
+    .project-form {
+        padding: 30px 24px;
+    }
+}
+/* ========================================
+   MOBILE NAVBAR
+======================================== */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 14px 18px;
+    }
+
+    .logo-text strong {
+        font-size: 16px;
+    }
+
+    .logo-text small {
+        font-size: 8px;
+    }
+
+    .nav-links {
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .nav-cta {
+        padding: 10px 12px;
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+}
+
+
+/* ========================================
+   SCROLL ACTIVATED CARD EFFECT
+======================================== */
+
+.service-card.is-visible,
+.process-step.is-visible,
+.why-item.is-visible,
+.featured-project.is-visible {
+    transform: translateY(-5px) !important;
+
+    border-color: rgba(59, 130, 246, 0.45) !important;
+
+    box-shadow:
+        0 20px 55px rgba(0, 0, 0, 0.35),
+        0 0 30px rgba(59, 130, 246, 0.08) !important;
+}
+
+.service-card.is-visible::before,
+.process-step.is-visible::before {
+    opacity: 1 !important;
+}
+
+.service-card.is-visible .service-arrow {
+    transform: translate(4px, -4px) !important;
+    color: #F5F7FA !important;
+}
+
+.process-step.is-visible .process-icon {
+    transform: rotate(90deg) !important;
+    color: #F5F7FA !important;
+}
+/* ========================================
+   MOBILE NAVIGATION
+======================================== */
+
+.mobile-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        padding: 12px 16px;
+        gap: 10px;
+    }
+
+    .logo-text strong {
+        font-size: 15px;
+    }
+
+    .logo-text small {
+        font-size: 7px;
+    }
+
+    .nav-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        padding: 9px 11px;
+        font-size: 9px;
+    }
+
+    .mobile-menu-toggle {
+        display: flex;
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        margin-left: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background: transparent;
+        border: 1px solid #1D242D;
+        border-radius: 8px;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .mobile-menu-toggle span {
+        display: block;
+        width: 17px;
+        height: 2px;
+        background: #F5F7FA;
+        border-radius: 2px;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 12px;
+        right: 12px;
+        padding: 12px;
+        flex-direction: column;
+        gap: 4px;
+        background: rgba(8, 9, 11, 0.97);
+        border: 1px solid #1D242D;
+        border-radius: 12px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+    }
+
+    .nav-links.mobile-open {
+        display: flex;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 14px 12px;
+        font-size: 14px;
+        border-radius: 7px;
+    }
+
+    .nav-links a:hover {
+        background: rgba(59, 130, 246, 0.10);
+        color: #60A5FA;
+    }
+}
+@media (max-width: 800px) {
+
+    .service-card.is-visible,
+    .process-step.is-visible,
+    .why-item.is-visible,
+    .featured-project.is-visible {
+        transform: translateY(-5px) !important;
+        border-color: rgba(59, 130, 246, 0.45) !important;
+        box-shadow:
+            0 20px 55px rgba(0, 0, 0, 0.35),
+            0 0 30px rgba(59, 130, 246, 0.08) !important;
+    }
+
+    .service-card.is-visible::before {
+        opacity: 1 !important;
+    }
+
+    .service-card.is-visible .service-arrow {
+        transform: translate(4px, -4px) !important;
+        color: #F5F7FA !important;
     }
 
 }

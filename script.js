@@ -63,3 +63,79 @@ if (projectForm) {
     });
 
 }
+/* ========================================
+   MOBILE SCROLL CARD EFFECT
+======================================== */
+
+const scrollCards = document.querySelectorAll(
+    ".service-card, .process-step, .why-item, .featured-project"
+);
+
+function updateMobileCardEffect() {
+
+    if (window.innerWidth > 800) {
+        scrollCards.forEach(card => {
+            card.classList.remove("is-visible");
+        });
+        return;
+    }
+
+    const screenCenter = window.innerHeight / 2;
+
+    let closestCard = null;
+    let closestDistance = Infinity;
+
+    scrollCards.forEach(card => {
+
+        const rect = card.getBoundingClientRect();
+
+        if (rect.bottom < 0 || rect.top > window.innerHeight) {
+            return;
+        }
+
+        const cardCenter = rect.top + (rect.height / 2);
+        const distance = Math.abs(screenCenter - cardCenter);
+
+        if (distance < closestDistance) {
+            closestDistance = distance;
+            closestCard = card;
+        }
+
+    });
+
+    scrollCards.forEach(card => {
+        card.classList.remove("is-visible");
+    });
+
+    if (closestCard) {
+        closestCard.classList.add("is-visible");
+    }
+}
+
+window.addEventListener("scroll", updateMobileCardEffect);
+window.addEventListener("resize", updateMobileCardEffect);
+
+updateMobileCardEffect();
+/* ========================================
+   MOBILE NAVIGATION
+======================================== */
+
+const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (mobileMenuToggle && navLinks) {
+
+    mobileMenuToggle.addEventListener("click", () => {
+
+        navLinks.classList.toggle("mobile-open");
+
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+
+        link.addEventListener("click", () => {
+            navLinks.classList.remove("mobile-open");
+        });
+
+    });
+}
